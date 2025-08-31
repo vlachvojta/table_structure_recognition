@@ -10,4 +10,13 @@ Table Structure Recognition, Table detection, Document Structure Analysis, Multi
 This thesis introduces the topic of Table Structure Recognition (TSR), which is used to analyze and reconstruct scanned tables. Current methods are introduced and expanded upon to create a Table Structure Recognition system. First, the Optical Character Recognition (OCR) system detects and transcribes words. The table structure is created using adjacency matrices representing word relation classes (same cell, column clusters, row clusters). The proposed architecture consists of a CNN backbone, a multimodal decoder transformer, class-wise prediction heads, and post-processing table reconstruction algorithm. The architecture is proven to work and is comparable with refference literature on the PubTables-1M dataset. The trained models are also fine-tuned on a custom HeritageTabNet dataset with positive improvement on both datasets.
 
 ## Reference
-VLACH, Vojtěch. TABLE STRUCTURERECOGNITIONUSINGMULTIMODALTRANSFORMERS. Brno, 2025. Master’s thesis. Brno University of Technology, Faculty of Information Technology. Supervisor Ing. Michal Hradiš, Ph.D.
+VLACH, Vojtěch. TABLE STRUCTURE RECOGNITION USING MULTIMODAL TRANSFORMERS. Brno, 2025. Master’s thesis. Brno University of Technology, Faculty of Information Technology. Supervisor Ing. Michal Hradiš, Ph.D.
+
+## Assignment:
+ 1. Familiarize yourself with multimodal transformer architectures.
+ 2. Review the current state-of-the-art methods for recognizing table structures in documents, emphasizing end-to-end transformer models.
+ 3. Select or propose an appropriate method capable of automatically analyzing table structures from images.
+ 4. Prepare or adapt a dataset suitable for your experiments. You may extend or update an existing dataset.
+ 5. Implement the chosen method and conduct experiments on your prepared dataset.
+ 6. Compare your experimental results with existing methods and discuss potential directions for future improvements.
+ 7. Create a concise video presentation summarizing your research, its objectives, methodologies, and key findings.
