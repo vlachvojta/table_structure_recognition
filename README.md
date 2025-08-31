@@ -12,7 +12,7 @@ This thesis introduces the topic of Table Structure Recognition (TSR), which is 
 ## Reference
 VLACH, Vojtěch. TABLE STRUCTURE RECOGNITION USING MULTIMODAL TRANSFORMERS. Brno, 2025. Master’s thesis. Brno University of Technology, Faculty of Information Technology. Supervisor Ing. Michal Hradiš, Ph.D.
 
-## Assignment:
+## Assignment
  1. Familiarize yourself with multimodal transformer architectures.
  2. Review the current state-of-the-art methods for recognizing table structures in documents, emphasizing end-to-end transformer models.
  3. Select or propose an appropriate method capable of automatically analyzing table structures from images.
